@@ -20,7 +20,7 @@ namespace ConsoleApplication1
             MaxTries = 5;
         }
 
-        public authorisation(string usr, string pass, int max)
+        public authorisation(string usr, string pass, int max) ///konstruktor
         {
             Username = usr;
             Password = pass;
