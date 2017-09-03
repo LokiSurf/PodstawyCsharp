@@ -8,13 +8,22 @@ namespace PodstawyCsharp
 {
     class Program
     {
-        static void Main(string[] args)
+        
+        
+        private string username = "admin";
+        private string password = "321";
+
+        public bool Logowanie (string Username, string Password)
+
         {
-            private string Username = "admin";
-            private string Password = "321";
+            (username.Equals(Username) && password.Equals(Password))
+                
+                return true;
+           
 
-
-
-        }
     }
-}
+
+    
+        
+    
+
