@@ -20,6 +20,12 @@ namespace ConsoleApplication1
             MaxTries = 5;
         }
 
+        public authorisation(string us, string pass, int max)
+        {
+            Username = us;
+            Password = pass;
+            MaxTries = max;
+        }
         private bool compare(string username, string password)
         {
 

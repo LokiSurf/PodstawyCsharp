@@ -12,7 +12,7 @@ namespace PodstawyCsharp
         static void Main(string[] args)
         {
 
-            authorisation logowanie = new authorisation();
+            authorisation logowanie = new authorisation("admin","123", 5);
 
             logowanie.login();
 
