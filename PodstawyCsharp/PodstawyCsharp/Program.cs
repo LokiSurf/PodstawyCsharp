@@ -10,6 +10,11 @@ namespace PodstawyCsharp
     {
         static void Main(string[] args)
         {
+            private string Username = "admin";
+            private string Password = "321";
+
+
+
         }
     }
 }
