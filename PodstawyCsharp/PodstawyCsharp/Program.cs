@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApplication1;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,22 +9,19 @@ namespace PodstawyCsharp
 {
     class Program
     {
-        
-        
-        private string username = "admin";
-        private string password = "321";
-
-        public bool Logowanie (string Username, string Password)
-
+        static void Main(string[] args)
         {
-            (username.Equals(Username) && password.Equals(Password))
-                
-                return true;
-           
 
+            authorisation logowanie = new authorisation();
+
+            logowanie.login();
+
+            Console.ReadKey();
+
+        }
     }
 
-    
+}  
         
     
 
