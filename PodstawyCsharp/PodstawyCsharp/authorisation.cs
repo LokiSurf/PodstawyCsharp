@@ -20,9 +20,9 @@ namespace ConsoleApplication1
             MaxTries = 5;
         }
 
-        public authorisation(string us, string pass, int max)
+        public authorisation(string usr, string pass, int max)
         {
-            Username = us;
+            Username = usr;
             Password = pass;
             MaxTries = max;
         }
